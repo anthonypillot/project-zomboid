@@ -397,7 +397,7 @@ SandboxVars = {
     -- 3 = High
     InjurySeverity = 2,
     -- How long, in hours, before dead zombie bodies disappear from the world.  If 0, maggots will not spawn on corpses. Min: -1.00 Max: 2147483647.00 Default: 216.00
-    HoursForCorpseRemoval = 216.0,
+    HoursForCorpseRemoval = 72.0,
     -- The impact that nearby decaying bodies has on the player's health and emotions. Default = Normal
     -- 1 = None
     -- 2 = Low
@@ -768,7 +768,7 @@ SandboxVars = {
     },
     Map = {
         -- If enabled, a mini-map window will be available.
-        AllowMiniMap = false,
+        AllowMiniMap = true,
         -- If enabled, the world map can be accessed.
         AllowWorldMap = true,
         -- If enabled, the world map will be completely filled in on starting the game.
@@ -934,7 +934,7 @@ SandboxVars = {
     },
     MultiplierConfig = {
         -- The rate at which all skills level up. Min: 0.00 Max: 1000.00 Default: 1.00
-        Global = 10.0,
+        Global = 30.0,
         -- When enabled, all skills will use the Global Multiplier.
         GlobalToggle = true,
         -- Rate at which Fitness skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00
