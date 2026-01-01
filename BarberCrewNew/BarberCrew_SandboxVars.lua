@@ -802,7 +802,7 @@ SandboxVars = {
         -- 2 = Saliva Only
         -- 3 = Everyone's Infected
         -- 4 = None
-        Transmission = 4,
+        Transmission = 2,
         -- How quickly the infection takes effect. Default = 2-3 Days
         -- 1 = Instant
         -- 2 = 0-30 Seconds
@@ -934,7 +934,7 @@ SandboxVars = {
     },
     MultiplierConfig = {
         -- The rate at which all skills level up. Min: 0.00 Max: 1000.00 Default: 1.00
-        Global = 30.0,
+        Global = 20.0,
         -- When enabled, all skills will use the Global Multiplier.
         GlobalToggle = true,
         -- Rate at which Fitness skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00
