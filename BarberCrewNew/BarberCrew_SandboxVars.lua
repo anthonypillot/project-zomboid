@@ -772,7 +772,7 @@ SandboxVars = {
         -- If enabled, the world map can be accessed.
         AllowWorldMap = true,
         -- If enabled, the world map will be completely filled in on starting the game.
-        MapAllKnown = false,
+        MapAllKnown = true,
         -- If enabled, maps can't be read unless there's a source of light available.
         MapNeedsLight = true,
     },
